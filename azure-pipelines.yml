@@ -36,5 +36,5 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'Api-Covid19-Davivienda-CI-Develop-Artifact'
+    ArtifactName: 'Artifact'
     publishLocation: 'Container'
